@@ -29,7 +29,7 @@ export class ReportsComponent implements OnInit {
       return;
     }
 
-    axios.get('http://localhost:3000/api/greenHydrogenInvestment', {
+    axios.get('http://159.203.90.56:3000/api/greenHydrogenInvestment', {
       headers: {
         'Authorization': `Bearer ${token}`  // Attach the token in the Authorization header
       }

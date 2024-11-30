@@ -26,7 +26,7 @@ export class SummaryComponent implements OnInit {
       return;
     }
 
-    axios.get('http://localhost:3000/api/patentFilings', {
+    axios.get('http://159.203.90.56:3000/api/patentFilings', {
       headers: {
         'Authorization': `Bearer ${token}`  // Attach the token in the Authorization header
       }

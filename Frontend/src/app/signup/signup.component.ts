@@ -41,7 +41,7 @@ export class SignupComponent {
     if (this.validateForm()) {
       if (this.validateForm()) {
         try {
-          const response = await axios.post('http://localhost:3000/api/signup', {
+          const response = await axios.post('http://159.203.90.56:3000/api/signup', {
             username: this.username,
             email : this.email,
             password: this.password,
