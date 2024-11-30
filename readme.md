@@ -9,14 +9,7 @@ The **S37** application provides users with detailed insights into clean energy 
 ## Technologies Used
 
 - **Front-end**: Angular
-- **Back-end**: Node.js / Python / PHP / Java (Choose one during setup)
+- **Back-end**: Node.js
 - **Database**: MySQL
 - **Styling**: Bootstrap
 - **APIs**: RESTful API for CRUD operations
-
-## Setup Instructions
-
-### Prerequisites
-- Install [Node.js](https://nodejs.org/) and [Angular CLI](https://angular.io/cli).
-- Install [MySQL](https://www.mysql.com/) for database management.
-- Install your chosen back-end runtime (Node.js / Python / PHP / Java).
